@@ -25,4 +25,4 @@ python src/client.py --host 127.0.0.1 --port 5000 --nick Bob
 Li Vyacheslav
 
 ## 📸 Example
-![py-chat-github](chat test.png)
+![Chat Example](Chat_test.png)
