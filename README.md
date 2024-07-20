@@ -1,28 +1,30 @@
 # Python Chat (Sockets)
 
-## Описание
+## Description ENG/RU
 Простой многопользовательский чат на Python с использованием TCP-сокетов.
+Simple multiplayer chat in Python using TCP sockets.
 
-## Возможности
-- Несколько клиентов одновременно
-- Никнеймы
-- Команды: /list, /quit
+## Possibilities
+- Multiple clients at the same time
+- Nicknames
+- Commands: /list, /quit
+  
+## Launch
 
-## Запуск
-
-### Сервер
+### Server
 ```bash
 python src/server.py --host 0.0.0.0 --port 5000
 ```
 
-### Клиент
+### Program client
 ```bash
 python src/client.py --host 127.0.0.1 --port 5000 --nick Alice
 python src/client.py --host 127.0.0.1 --port 5000 --nick Bob
 ```
 
-## Автор
+## Creator
 Li Vyacheslav
 
-## 📸 Example
+## 📷 Example
+
 ![Chat Example](Chat_test.png)
